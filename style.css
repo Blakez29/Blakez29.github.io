@@ -1,0 +1,40 @@
+*{
+    background-color: rgba(240, 247, 255, 0.784);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+header{
+    text-align: center;
+}
+footer{
+    display: inline-table;
+    border: 3px rgb(144, 144, 210) solid;
+    width: auto;
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 36px;
+}
+footer p{
+    line-height: 5px;
+}
+header img{
+    float: right;
+    width: 250px;
+    border: rgb(144, 144, 210) 2px solid;
+}
+#contact{
+    text-align: center;
+}
+div #img{
+    display: flex;
+    justify-content: space-around;
+}
+div figcaption{
+    text-align: center;
+}
+
+#skills #img img{
+    max-height: 100px;
+    
+}
