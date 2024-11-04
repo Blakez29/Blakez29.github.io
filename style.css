@@ -26,8 +26,9 @@ header img{
 #contact{
     text-align: center;
 }
-div #img{
+#img{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 div figcaption{
